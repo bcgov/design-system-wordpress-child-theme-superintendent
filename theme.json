@@ -1,0 +1,70 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "title": "Superintendent Child Theme",
+    "customTemplates": [
+        {
+            "name": "page",
+            "title": "Page",
+            "postTypes": [
+                "page"
+            ]
+        }
+    ],
+    "templateParts": [
+        {
+            "name": "header",
+            "title": "Header",
+            "area": "header"
+        },
+        {
+            "title": "Footer",
+            "name": "footer",
+            "area": "footer"
+        }
+    ],   
+    "settings": {
+        "appearanceTools": true,
+        "useRootPaddingAwareAlignments": true,      
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                {
+                    "slug": "rich-black",
+                    "color": "#001829",
+                    "name": "Rich Black"
+                },
+                {
+                    "slug": "prussian-blue",
+                    "color": "#003052",
+                    "name": "Prusian Blue"
+                },
+                {
+                    "slug": "lapis-lazuli",
+                    "color": "#005b94",
+                    "name": "Lapis Lazuli"
+                },
+                {
+                    "slug": "french-blue",
+                    "color": "#0077cc",
+                    "name": "French Blue"
+                },
+                {
+                    "slug": "lavender",
+                    "color": "#d4d7ed",
+                    "name": "Lavendar"
+                },
+                {
+                    "slug": "ghost-white",
+                    "color": "#f1f2f9",
+                    "name": "Ghost White"
+                },
+                {
+                    "slug": "white",
+                    "color": "#ffffff",
+                    "name": "White"
+                }
+            ]
+        }
+    }
+}
