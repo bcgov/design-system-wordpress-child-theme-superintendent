@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "title": "Superintendent Child Theme",
+    
+   
+    "settings": {
+        "appearanceTools": true,
+        "useRootPaddingAwareAlignments": true,      
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                {
+                    "slug": "rich-black",
+                    "color": "#001829",
+                    "name": "Rich Black"
+                },
+                {
+                    "slug": "prusian-blue",
+                    "color": "#003052",
+                    "name": "Prusian Blue"
+                },
+                {
+                    "slug": "lapis-lazuli",
+                    "color": "#005b94",
+                    "name": "Lapis Lazuli"
+                },
+                {
+                    "slug": "french-blue",
+                    "color": "#0077cc",
+                    "name": "French Blue"
+                },
+                {
+                    "slug": "lavendar",
+                    "color": "#d4d7ed",
+                    "name": "Lavendar"
+                },
+                {
+                    "slug": "ghost-white",
+                    "color": "#f1f2f9",
+                    "name": "Ghost White"
+                },
+                {
+                    "slug": "white",
+                    "color": "#ffffff",
+                    "name": "White"
+                }
+            ]
+        }
+    }
+}
