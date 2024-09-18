@@ -2,27 +2,6 @@
     "$schema": "https://schemas.wp.org/trunk/theme.json",
     "version": 3,
     "title": "Superintendent Child Theme",
-    "customTemplates": [
-        {
-            "name": "page",
-            "title": "Page",
-            "postTypes": [
-                "page"
-            ]
-        }
-    ],
-    "templateParts": [
-        {
-            "name": "header",
-            "title": "Header",
-            "area": "header"
-        },
-        {
-            "title": "Footer",
-            "name": "footer",
-            "area": "footer"
-        }
-    ],   
     "settings": {
         "appearanceTools": true,
         "useRootPaddingAwareAlignments": true,      
